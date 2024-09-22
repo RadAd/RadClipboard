@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="RadClipboard.cpp" />
+    <ClCompile Include="WinMain.cpp" />
+    <ClCompile Include="Rad\Window.cpp">
+      <Filter>Rad</Filter>
+    </ClCompile>
+    <ClCompile Include="Rad\Log.cpp">
+      <Filter>Rad</Filter>
+    </ClCompile>
+    <ClCompile Include="Rad\WinError.cpp">
+      <Filter>Rad</Filter>
+    </ClCompile>
+    <ClCompile Include="Rad\Dialog.cpp">
+      <Filter>Rad</Filter>
+    </ClCompile>
+    <ClCompile Include="Rad\MessageHandler.cpp">
+      <Filter>Rad</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Rad\Format.h">
+      <Filter>Rad</Filter>
+    </ClInclude>
+    <ClInclude Include="Rad\MemoryPlus.h">
+      <Filter>Rad</Filter>
+    </ClInclude>
+    <ClInclude Include="Rad\Window.h">
+      <Filter>Rad</Filter>
+    </ClInclude>
+    <ClInclude Include="Rad\Windowxx.h">
+      <Filter>Rad</Filter>
+    </ClInclude>
+    <ClInclude Include="Rad\WinError.h">
+      <Filter>Rad</Filter>
+    </ClInclude>
+    <ClInclude Include="Rad\Log.h">
+      <Filter>Rad</Filter>
+    </ClInclude>
+    <ClInclude Include="Rad\SourceLocation.h">
+      <Filter>Rad</Filter>
+    </ClInclude>
+    <ClInclude Include="Rad\Convert.h">
+      <Filter>Rad</Filter>
+    </ClInclude>
+    <ClInclude Include="Rad\Dialog.h">
+      <Filter>Rad</Filter>
+    </ClInclude>
+    <ClInclude Include="Rad\MessageHandler.h">
+      <Filter>Rad</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Rad">
+      <UniqueIdentifier>{d8c03c3c-e8ab-485d-9f97-956d5b69a297}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
